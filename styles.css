@@ -1,0 +1,294 @@
+header h2 {
+  text-align: center;
+  color: rgb(171, 171, 199);
+  height: 50px;
+}
+
+header h3 {
+  text-align: center;
+  color: rgb(171, 171, 199);
+  height: 20px;
+}
+
+header th {
+  color: rgb(110, 108, 108);
+}
+
+header th a {
+  color: rgb(146, 146, 146);
+}
+
+.firstTable {
+  margin: auto;
+  width: 900px;
+}
+
+indexMain {
+height: 400px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(171, 171, 199);
+  margin: 100px 0px 0px 0px;
+  height: 80px;
+}
+
+.thirdDown {
+  background-image: url(places.jpg);
+  width: 150px;
+  height: 100px;
+  background-size: cover;
+}
+
+.fourthDown {
+  background-image: url(hobbies.jpg);
+  width: 150px;
+  height: 100px;
+  background-size: cover;
+}
+
+.fifthDown {
+  background-image: url(contacts.jpg);
+  width: 150px;
+  height: 100px;
+  background-size: contain;
+}
+
+.secondDown {
+  background-image: url(photos.jpg);
+  width: 150px;
+  height: 100px;
+  background-size: contain;
+}
+
+.firstDown {
+  background-image: url(me.jpg);
+  width: 150px;
+  height: 100px;
+  background-size: cover;
+}
+
+.sixthDown {
+  background-image: url(homepage.jpg);
+  width: 150px;
+  height: 100px;
+  background-size: cover;
+}
+
+main img{
+  height: 400px;
+  margin: 50px 200px 50px 0px;
+}
+
+.myTable {
+  margin: 150px 0px 50px 450px;
+}
+
+.myPhoto {
+  height: 300px;
+  width: 200px;
+  margin: 150px 0px 50px 450px;
+  background-image: url(me.jpg);
+  background-size: cover;
+}
+
+.myText {
+  height: 300px;
+  width: 900px;
+  color: dimgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 2;
+  text-indent: 40px;
+}
+
+.hobbiesTable {
+  margin: 150px 0px 50px 450px;
+}
+
+.hobbiesPhoto {
+  height: 200px;
+  width: 300px;
+  margin: 150px 0px 50px 450px;
+  background-image: url(sport.jpg);
+  background-size: contain;
+}
+
+.hobbiesText {
+  height: 300px;
+  width: 900px;
+  color: dimgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 2;
+  text-indent: 40px;
+}
+
+.placesTable {
+  margin: 150px 0px 50px 550px;
+}
+
+.placesPhoto {
+  height: 200px;
+  width: 300px;
+  margin: 150px 0px 50px 450px;
+  background-image: url(travel.jpeg);
+  background-size: cover;
+}
+
+.placesText {
+  height: 300px;
+  width: 900px;
+  color: dimgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 2;
+  text-indent: 40px;
+}
+
+.photosTable {
+  margin: 150px 0px 50px 350px;
+}
+
+.photosPhoto {
+  height: 200px;
+  width: 500px;
+  margin: 150px 0px 50px 450px;
+  background-image: url(arctic.jpg);
+  background-size: cover;
+}
+
+.photosText {
+  height: 300px;
+  width: 900px;
+  color: dimgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 2;
+  text-indent: 40px;
+}
+
+.tlg {
+  height: 100px;
+  width: 200px;
+  margin: 170px 0px 0px 800px;
+}
+
+.contactsMain a {
+  color: dimgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: inherit;
+}
+
+.gitHubLink {
+  height: 100px;
+  width: 200px;
+  margin: 0px 0px 120px 800px;
+}
+
+.meFooter {
+  margin: 150px 0px 0px 0px;
+}
+
+.hobbiesFooter {
+  margin: 150px 0px 0px 0px;
+}
+
+.placesFooter {
+  margin: 150px 0px 0px 0px;
+}
+
+.contactsFooter {
+  margin: 100px 0px 0px 0px;
+}
+
+.mainFooter {
+  margin: 100px 0px 0px 0px;
+}
+
+.photoFooter {
+  margin: 150px 0px 0px 0px;
+}
+
+.anim-show-contacts {
+  width:300px;
+  opacity:0; 
+  transition: 1s; 
+  animation: show 3s 1; 
+  animation-fill-mode: forwards; 
+  animation-delay: 1s; 
+  }
+
+  .anim-show-hobbies {
+    opacity:0; 
+    transition: 1s; 
+    animation: show 3s 1; 
+    animation-fill-mode: forwards; 
+    animation-delay: 1s; 
+    }
+
+    .anim-show-me {
+      opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+      transition: 1s; /*Скорость перехода состояния элемента*/
+      animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+      animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+      animation-delay: 1s; /* Задержка перед началом */
+      }
+
+      .anim-show-places {
+        opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+        transition: 1s; /*Скорость перехода состояния элемента*/
+        animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+        animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+        animation-delay: 1s; /* Задержка перед началом */
+        }
+
+        .anim-show-photos {
+          opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+          transition: 1s; /*Скорость перехода состояния элемента*/
+          animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+          animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+          animation-delay: 1s; /* Задержка перед началом */
+          }
+
+          .anim-show-welcome {
+            opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+            transition: 1s; /*Скорость перехода состояния элемента*/
+            animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+            animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+            animation-delay: 1s; /* Задержка перед началом */
+            }
+
+            .anim-show-table {
+              opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+              transition: 1s; /*Скорость перехода состояния элемента*/
+              animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+              animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+              animation-delay: 1s; /* Задержка перед началом */
+              }
+
+              .anim-show-hi-on-over {
+                opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+                transition: 1s; /*Скорость перехода состояния элемента*/
+                animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+                animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+                animation-delay: 3s; /* Задержка перед началом */
+                margin: 0px 0px 0px 705px;
+                }
+
+  @keyframes show {
+    0%{
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+    }
+
+    
